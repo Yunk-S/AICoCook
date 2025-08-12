@@ -22,14 +22,19 @@ The application contains 8 main pages, each designed for specific recipe discove
 
 ### 🏠 Homepage (`/`)
 The main landing page of the application, showcasing feature highlights and introduction. Key features:
+
+![Homepage](src/assets/images/Home.png)
 - **Hero Section**: Eye-catching gradient titles and animated background introduction
 - **Feature Cards**: Interactive glass-morphism cards highlighting core functions
 - **Recipe Carousel**: Horizontal scrolling showcase of popular recipes
 - **Usage Guide**: Step-by-step guidance on how to use the application
 - **Responsive Design**: Adapts to all device sizes with smooth animations
 
+
 ### 🤖 AI Nutritionist (`/ai-coach`)
 Intelligent nutrition coach providing personalized dietary advice through conversational AI. Key features:
+
+![AI Nutritionist](src/assets/images/AI.png)
 - **Chat Interface**: Real-time streaming conversations with AI nutritionist
 - **Health Analysis**: BMI calculation and personalized recommendations
 - **Chat History**: Persistent conversation session management and search
@@ -41,6 +46,8 @@ Intelligent nutrition coach providing personalized dietary advice through conver
 
 ### 💡 AI Recommendations (`/ai-recommend`)
 Personalized recipe recommendations based on user health data and dietary preferences. Key features:
+
+![AI Recommendations](src/assets/images/Recommend.png)
 - **Health Profile**: Complete body metrics form (height, weight, age, activity level)
 - **BMI & Calorie Calculator**: Automatic health metrics calculation and dietary advice
 - **Dietary Preferences**: Ingredient preferences, restrictions, and dietary limitations
@@ -50,6 +57,8 @@ Personalized recipe recommendations based on user health data and dietary prefer
 
 ### 🎲 Random Recipes (`/random-recipe`)
 Generate random meal combinations for cooking exploration and meal planning. Key features:
+
+![Random Recipes](src/assets/images/Random.png)
 - **Random Meal Generator**: Creates balanced multi-recipe meal combinations
 - **Meal History**: Save and browse previously generated meal combinations
 - **Quick Actions**: One-click meal generation and save to history
@@ -57,8 +66,10 @@ Generate random meal combinations for cooking exploration and meal planning. Key
 - **Nutrition Summary**: Comprehensive nutritional information for meal combinations
 - **Export Options**: Save favorite meal combinations for future reference
 
-### 🔍 Limited Conditions (`/limited-conditions`)
+### 🔍 Inspiration Recipes (`/limited-conditions`)
 Find recipes based on available ingredients and kitchen equipment. Key features:
+
+![Inspiration Recipes](src/assets/images/Inspiration.png)
 - **Ingredient Selection**: Browse and select categorized ingredient database
 - **Equipment Matching**: Select available kitchen tools and cookware
 - **Smart Search**: Fuzzy, strict, or survival mode matching algorithms
@@ -69,6 +80,8 @@ Find recipes based on available ingredients and kitchen equipment. Key features:
 
 ### 🍽️ Food Gallery (`/food-gallery`)
 Comprehensive recipe browser with advanced search capabilities. Key features:
+
+![Food Gallery](src/assets/images/Gallery.png)
 - **AI Smart Search**: Natural language recipe discovery and semantic understanding
 - **Search Analysis**: Detailed breakdown of search intent and extracted features
 - **Recipe Grid**: Responsive waterfall layout and infinite scrolling
