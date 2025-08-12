@@ -1,0 +1,9 @@
+{
+  "name": "recipe-converter",
+  "version": "1.0.0",
+  "description": "将CSV格式菜谱转换为JSON",
+  "type": "module",
+  "scripts": {
+    "convert": "node convertRecipes.js"
+  }
+} 

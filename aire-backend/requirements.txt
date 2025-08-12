@@ -1,0 +1,80 @@
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Database
+sqlalchemy==2.0.23
+alembic==1.12.1
+psycopg2-binary==2.9.9
+redis==5.0.1
+
+# Data Processing
+pandas==2.1.4
+numpy>=1.26.0
+
+# AI & ML
+google-generativeai>=0.3.0
+openai==1.30.1  # 统一OpenAI API版本
+langchain-google-genai
+langchain==0.2.1
+transformers==4.41.2  # 固定版本避免重复下载
+sentence-transformers==2.2.2
+
+# Vector Database
+faiss-cpu>=1.7.4  # FAISS向量数据库
+
+# Vector Database (alternative options)
+# pinecone-client==2.2.4
+# weaviate-client==3.25.3
+
+# Task Queue
+celery==5.3.4
+
+# Authentication & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Data Validation
+pydantic==2.5.0
+email-validator
+
+# HTTP Client
+httpx==0.25.2
+aiohttp==3.9.1
+requests==2.31.0  # 用于测试和外部API调用
+
+# Monitoring & Logging
+structlog==23.2.0
+prometheus-client==0.19.0
+python-json-logger  # 确保JSON日志可用
+
+# Environment Management
+python-dotenv==1.0.0
+
+# Development
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+black==23.11.0
+isort==5.12.0
+flake8==6.1.0
+mypy==1.7.1
+
+# Document Processing & Utilities
+tqdm==4.66.1
+Pillow==10.1.0
+python-slugify==8.0.1
+pdfminer.six==20231228
+
+# AI Document Processing (using safer approach)
+unstructured  # 基础版本，避免依赖问题
+nltk  # NLP处理
+lxml  # XML/HTML解析
+beautifulsoup4  # 网页解析
+python-magic  # 文件类型检测
+
+# Optional AI enhancements (may fail on some systems)
+# unstructured[local-inference]  # 包含大量可选依赖，可能导致安装失败
+# pillow-heif  # HEIF图像支持，在某些系统上可能失败
+# layoutparser  # 文档布局分析，可选

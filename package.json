@@ -1,0 +1,36 @@
+{
+  "name": "ai-cook",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --force",
+    "dev:fast": "vite --force --host 0.0.0.0 --port 3001",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "clean": "rimraf node_modules/.vite dist",
+    "clean:win": "if exist node_modules\\.vite rmdir /s /q node_modules\\.vite && if exist dist rmdir /s /q dist"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "body-parser": "^2.2.0",
+    "element-plus": "^2.3.12",
+    "lodash-es": "^4.17.21",
+    "papaparse": "^5.5.3",
+    "pinia": "^2.1.6",
+    "vue": "^3.3.4",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^8.46.0",
+    "eslint-plugin-vue": "^9.16.1",
+    "postcss": "^8.5.6",
+    "sass": "^1.66.1",
+    "tailwindcss": "^4.1.11",
+    "vite": "^7.0.6"
+  }
+}
