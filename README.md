@@ -185,9 +185,9 @@ python aire-backend/scripts/import_data.py rebuild --embedding-provider zhipu
 
 ⚠️ **Important Note**: **The first run process takes a long time to prepare, expected to take 5-15 minutes**, depending on your network conditions and computer performance. Please ensure stable network connection and be patient. This is **only needed once**, subsequent startups will be very fast.
 
-The first run takes time mainly in two stages:
+The first run takes time mainly in this stages:
 1.  **Dependency Package Download**: `firststart.bat` will automatically download all required Python and Node.js dependency packages, with potentially large total volume.
-2.  **AI Model Download**: The search backend needs to download a semantic model of approximately **500MB** from Hugging Face Hub on first startup. This is the core for implementing intelligent search, and download progress will be displayed in the **AI-Cook Search API** command line window.
+
 
 **Operation Steps:**
 
